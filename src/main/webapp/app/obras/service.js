@@ -15,7 +15,7 @@
         .get(
           `${URI}?page=${page.number}&size=${
             page.size
-          }&filterField=cliente.nome&filterValue=${filtro}`
+          }&filterField=fornecedor.nome&filterValue=${filtro}`
         )
         .then(function(response) {
           return {

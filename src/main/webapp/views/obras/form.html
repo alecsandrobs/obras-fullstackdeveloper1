@@ -18,11 +18,11 @@
     </div>
     <div class="form-row justify-content-end">
         <div class="form-group col-md-6">
-            <label for="cliente">Cliente</label>
-            <select ng-class="{'is-invalid': vm.error.cliente}" ng-options="item as item.nome for item in vm.clientes track by item.id" ng-model="vm.registro.cliente" class="form-control" autofocus>
+            <label for="fornecedor">Fornecedor</label>
+            <select ng-class="{'is-invalid': vm.error.fornecedor}" ng-options="item as item.nome for item in vm.fornecedores track by item.id" ng-model="vm.registro.cliente" class="form-control" autofocus>
             </select>
-            <small ng-if="vm.error.cliente" class="invalid-feedback">
-                {{vm.error.cliente[1]}}
+            <small ng-if="vm.error.fornecedor" class="invalid-feedback">
+                {{vm.error.fornecedor[1]}}
             </small>
         </div>
         <div class="form-group col-md-6">

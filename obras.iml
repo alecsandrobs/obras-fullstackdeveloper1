@@ -8,8 +8,29 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <ANNOTATIONS>
+          <root url="file://$USER_HOME$/.sdkman/candidates/java/current" />
+        </ANNOTATIONS>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.sdkman/candidates/java/current" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$USER_HOME$/.sdkman/candidates/java/current" />
+        </JAVADOC>
+        <NATIVE>
+          <root url="file://$USER_HOME$/.sdkman/candidates/java/current" />
+        </NATIVE>
+        <SOURCES>
+          <root url="file://$USER_HOME$/.sdkman/candidates/java/current" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/.sdkman/candidates/java/current" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/.sdkman/candidates/java/current" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: io.thorntail:web:2.5.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.thorntail:bean-validation:2.5.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.thorntail:container:2.5.0.Final" level="project" />
@@ -126,5 +147,6 @@
     <orderEntry type="library" name="Maven: org.jboss.xnio:xnio-api:3.3.8.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.jboss.xnio:xnio-nio:3.3.8.Final" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:1.0.2.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.2.2" level="project" />
   </component>
 </module>

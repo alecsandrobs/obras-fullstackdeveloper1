@@ -9,10 +9,10 @@
         '$state',
         '$stateParams',
         'DialogBuilder',
-        'ClienteService'
+        'FornecedorService'
     ];
 
-    function ObrasFormController(ObrasService, $state, $stateParams, DialogBuilder, ClienteService) {
+    function ObrasFormController(ObrasService, $state, $stateParams, DialogBuilder, FornecedorService) {
 
         var vm = this;
         vm.registro = {
@@ -23,7 +23,7 @@
         vm.error = {};
         vm.titulo = 'Nova obra';
         
-        vm.clientes = [];
+        vm.fornecedores = [];
         
         vm.salvar = salvar;
         
@@ -35,9 +35,9 @@
         vm.salvarItem = salvarItem;
         vm.novoItem = novoItem;
 
-        ClienteService.findAllOver()
+        FornecedorService.findAllOver()
             .then(function (data) {
-                vm.clientes = data;
+                vm.fornecedores = data;
             });
 
         if ($stateParams.id) {
